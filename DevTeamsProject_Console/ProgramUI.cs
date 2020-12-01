@@ -264,6 +264,21 @@ namespace DevTeamsProject_Console
             }
         }
 
+        // Display All Developers that need a pluralsight license
+        private void NeedsPluralsightLicense()
+        {
+            Console.Clear();
+            List<Developer> devs = _devRepo.GetDevelopers();
+
+            foreach (Developer i in devs)
+            {
+                if (!i.AccessToPluralsight)
+                {
+                    Console.WriteLine($"{i.Id}: {i.Name}");
+                }
+            }
+        }
+
         // Add Developer to a team
         private void AddDeveloperToTeam()
         {
