@@ -4,3 +4,9 @@ C:\Users\bouwe\source\repos\DevTeamsProject_Console\DevTeamsProject\obj\Debug\De
 C:\Users\bouwe\source\repos\DevTeamsProject_Console\DevTeamsProject\obj\Debug\DevTeamsProject.csproj.CoreCompileInputs.cache
 C:\Users\bouwe\source\repos\DevTeamsProject_Console\DevTeamsProject\obj\Debug\DevTeamsProject.dll
 C:\Users\bouwe\source\repos\DevTeamsProject_Console\DevTeamsProject\obj\Debug\DevTeamsProject.pdb
+C:\Users\bouwe\Desktop\ElevenFiftyProjects\DotNetProjects\CSharpFundamentals\DevTeamsProject\DevTeamsProject\bin\Debug\DevTeamsProject.dll
+C:\Users\bouwe\Desktop\ElevenFiftyProjects\DotNetProjects\CSharpFundamentals\DevTeamsProject\DevTeamsProject\bin\Debug\DevTeamsProject.pdb
+C:\Users\bouwe\Desktop\ElevenFiftyProjects\DotNetProjects\CSharpFundamentals\DevTeamsProject\DevTeamsProject\obj\Debug\DevTeamsProject.csprojAssemblyReference.cache
+C:\Users\bouwe\Desktop\ElevenFiftyProjects\DotNetProjects\CSharpFundamentals\DevTeamsProject\DevTeamsProject\obj\Debug\DevTeamsProject.csproj.CoreCompileInputs.cache
+C:\Users\bouwe\Desktop\ElevenFiftyProjects\DotNetProjects\CSharpFundamentals\DevTeamsProject\DevTeamsProject\obj\Debug\DevTeamsProject.dll
+C:\Users\bouwe\Desktop\ElevenFiftyProjects\DotNetProjects\CSharpFundamentals\DevTeamsProject\DevTeamsProject\obj\Debug\DevTeamsProject.pdb

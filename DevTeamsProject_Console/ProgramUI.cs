@@ -11,6 +11,7 @@ namespace DevTeamsProject_Console
     {
         private DevTeamRepo _teamsRepo = new DevTeamRepo();
         private DeveloperRepo _devRepo = new DeveloperRepo();
+        private int count = 3;
 
         // Method that runs/starts the app
         public void Run()
@@ -37,7 +38,8 @@ namespace DevTeamsProject_Console
                     "7. View All Developers\n" +
                     "8. View Developer\n" +
                     "9. Delete Developer\n" +
-                    "10. Exit\n"
+                    "10. Add Developer to Team\n" +
+                    "11. Exit\n"
                     );
 
                 // Get user's  input
@@ -83,6 +85,10 @@ namespace DevTeamsProject_Console
                         DeleteDeveloper();
                         break;
                     case "10":
+                        // Add dev to team
+                        AddDeveloperToTeam();
+                        break;
+                    case "11":
                         Console.WriteLine("Goodbye");
                         keepRunning = false;
                         break;
@@ -203,6 +209,13 @@ namespace DevTeamsProject_Console
             }
         }
 
+        // Get Id
+        private int GetId()
+        {
+            count += 1;
+            return count;
+        }
+
         // Create Developer
         private void CreateDeveloper()
         {
@@ -210,6 +223,7 @@ namespace DevTeamsProject_Console
             // Create new Developer Object
             Developer newDev = new Developer();
 
+            newDev.Id = GetId();
             //Get user input
             Console.WriteLine("Enter the developers name");
             newDev.Name = Console.ReadLine();
@@ -246,12 +260,12 @@ namespace DevTeamsProject_Console
 
             foreach (Developer i in devs)
             {
-                Console.WriteLine();
+                Console.WriteLine($"{i.Id}: {i.Name}");
             }
         }
 
-        // Display Developer By Id
-        private void DisplayDeveloper()
+        // Add Developer to a team
+        private void AddDeveloperToTeam()
         {
             DisplayAllDevelopers();
             Console.WriteLine("Enter the id of the developer you would like to see");
@@ -267,6 +281,19 @@ namespace DevTeamsProject_Console
             // AddDevToTeamById returns a string - team not found or added successfully
             string message = _teamsRepo.AddDevToTeamById(dev, team.Name);
             Console.WriteLine(message);
+        }
+
+        // Display Developer By Id
+        private void DisplayDeveloper()
+        {
+            DisplayAllDevelopers();
+            Console.WriteLine("Enter the id of the developer you would like to see");
+            int input = int.Parse(Console.ReadLine());
+
+            // get developer by id
+            Developer dev = _devRepo.GetDeveloperById(input);
+
+            Console.WriteLine($"Id: {dev.Id}, Name {dev.Name}, Salary: {dev.Salary}, Email: {dev.Email}, Access to Pluralsight: {dev.AccessToPluralsight}");
         }
 
         // Delete Developer
@@ -299,9 +326,9 @@ namespace DevTeamsProject_Console
             _teamsRepo.AddDevTeam(c);
 
             // add some devs
-            Developer sirSmith = new Developer("Renaldo Smith", "rsmith@gmail.com", 50000, true);
-            Developer sirNorington = new Developer("Wiliam Norington", "2hot2touch83@gmail.com", 80000, false);
-            Developer sirVanlicktenstien = new Developer("Oric VanLicktenstein", "rickyV@gmail.com", 20000, false);
+            Developer sirSmith = new Developer(1, "Renaldo Smith", "rsmith@gmail.com", 50000, true);
+            Developer sirNorington = new Developer(2, "Wiliam Norington", "2hot2touch83@gmail.com", 80000, false);
+            Developer sirVanlicktenstien = new Developer(3, "Oric VanLicktenstein", "rickyV@gmail.com", 20000, false);
 
             _devRepo.AddDeveloper(sirSmith);
             _devRepo.AddDeveloper(sirNorington);

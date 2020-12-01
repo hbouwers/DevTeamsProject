@@ -8,3 +8,13 @@ C:\Users\bouwe\source\repos\DevTeamsProject_Console\DevTeamsProject_Console\obj\
 C:\Users\bouwe\source\repos\DevTeamsProject_Console\DevTeamsProject_Console\obj\Debug\DevTeamsProject_Console.csproj.CopyComplete
 C:\Users\bouwe\source\repos\DevTeamsProject_Console\DevTeamsProject_Console\obj\Debug\DevTeamsProject_Console.exe
 C:\Users\bouwe\source\repos\DevTeamsProject_Console\DevTeamsProject_Console\obj\Debug\DevTeamsProject_Console.pdb
+C:\Users\bouwe\Desktop\ElevenFiftyProjects\DotNetProjects\CSharpFundamentals\DevTeamsProject\DevTeamsProject_Console\bin\Debug\DevTeamsProject_Console.exe.config
+C:\Users\bouwe\Desktop\ElevenFiftyProjects\DotNetProjects\CSharpFundamentals\DevTeamsProject\DevTeamsProject_Console\bin\Debug\DevTeamsProject_Console.exe
+C:\Users\bouwe\Desktop\ElevenFiftyProjects\DotNetProjects\CSharpFundamentals\DevTeamsProject\DevTeamsProject_Console\bin\Debug\DevTeamsProject_Console.pdb
+C:\Users\bouwe\Desktop\ElevenFiftyProjects\DotNetProjects\CSharpFundamentals\DevTeamsProject\DevTeamsProject_Console\bin\Debug\DevTeamsProject.dll
+C:\Users\bouwe\Desktop\ElevenFiftyProjects\DotNetProjects\CSharpFundamentals\DevTeamsProject\DevTeamsProject_Console\bin\Debug\DevTeamsProject.pdb
+C:\Users\bouwe\Desktop\ElevenFiftyProjects\DotNetProjects\CSharpFundamentals\DevTeamsProject\DevTeamsProject_Console\obj\Debug\DevTeamsProject_Console.csprojAssemblyReference.cache
+C:\Users\bouwe\Desktop\ElevenFiftyProjects\DotNetProjects\CSharpFundamentals\DevTeamsProject\DevTeamsProject_Console\obj\Debug\DevTeamsProject_Console.csproj.CoreCompileInputs.cache
+C:\Users\bouwe\Desktop\ElevenFiftyProjects\DotNetProjects\CSharpFundamentals\DevTeamsProject\DevTeamsProject_Console\obj\Debug\DevTeamsProject_Console.csproj.CopyComplete
+C:\Users\bouwe\Desktop\ElevenFiftyProjects\DotNetProjects\CSharpFundamentals\DevTeamsProject\DevTeamsProject_Console\obj\Debug\DevTeamsProject_Console.exe
+C:\Users\bouwe\Desktop\ElevenFiftyProjects\DotNetProjects\CSharpFundamentals\DevTeamsProject\DevTeamsProject_Console\obj\Debug\DevTeamsProject_Console.pdb
