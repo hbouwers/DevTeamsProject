@@ -1,0 +1,6 @@
+C:\Users\bouwe\source\repos\DevTeamsProject_Console\DevTeamsProject\bin\Debug\DevTeamsProject.dll
+C:\Users\bouwe\source\repos\DevTeamsProject_Console\DevTeamsProject\bin\Debug\DevTeamsProject.pdb
+C:\Users\bouwe\source\repos\DevTeamsProject_Console\DevTeamsProject\obj\Debug\DevTeamsProject.csprojAssemblyReference.cache
+C:\Users\bouwe\source\repos\DevTeamsProject_Console\DevTeamsProject\obj\Debug\DevTeamsProject.csproj.CoreCompileInputs.cache
+C:\Users\bouwe\source\repos\DevTeamsProject_Console\DevTeamsProject\obj\Debug\DevTeamsProject.dll
+C:\Users\bouwe\source\repos\DevTeamsProject_Console\DevTeamsProject\obj\Debug\DevTeamsProject.pdb
