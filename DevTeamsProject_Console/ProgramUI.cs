@@ -89,11 +89,15 @@ namespace DevTeamsProject_Console
                         AddDeveloperToTeam();
                         break;
                     case "11":
+                        // List of devs that need pluralsight license
+                        NeedsPluralsightLicense();
+                        break;
+                    case "12":
                         Console.WriteLine("Goodbye");
                         keepRunning = false;
                         break;
                     default:
-                        Console.WriteLine("Please enter a valid number 1-10");
+                        Console.WriteLine("Please enter a valid number 1-12");
                         break;
                 }
 
